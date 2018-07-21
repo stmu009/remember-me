@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 class Instruction extends Component {
   render() {
     return (
-      <li className="Instruction">
+      <div className="Instruction">
         Click an image to begin!
-      </li>
+      </div>
     );
   }
 }

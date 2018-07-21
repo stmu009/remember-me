@@ -7,11 +7,11 @@ class Header extends Component {
   render() {
     return (
       <div className="navbar">
-        <ul>
-          <Title />
+        
+          <Title className="navbar-brand" />
           <Instruction />
           <Score />
-        </ul>
+        
       </div>
     );
   }

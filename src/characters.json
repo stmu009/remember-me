@@ -1,0 +1,67 @@
+[{
+        "id": 1,
+        "name": "Abuelita",
+        "path": "/images/coco-abuelita.png"
+    },
+    {
+        "id": 2,
+        "name": "Rivera family",
+        "path": "/images/coco-rivera-family.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dante",
+        "path": "/images/coco-dante.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Ernesto De La Cruz",
+        "path": "/images/coco-ernesto-de-la-cruz.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Hector",
+        "path": "/images/coco-hector.png"
+    },
+    {
+        "id": 6,
+        "name": "Imelda",
+        "path": "/images/coco-imelda.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Enrique Rivera",
+        "path": "/images/coco-enrique-rivera.png"
+    },
+    {
+        "id": 8,
+        "name": "Frida",
+        "path": "/images/coco-frida.png"
+    },
+    {
+        "id": 9,
+        "name": "Luisa Rivera",
+        "path": "/images/coco-luisa-rivera.png"
+    },
+    {
+        "id": 10,
+        "name": "Mama Coco",
+        "path": "/images/coco-mama-coco.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Miguel",
+        "path": "/images/coco-miguel.png"
+    },
+    {
+        "id": 12,
+        "name": "Chicharron",
+        "path": "/images/coco-chicharron.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Pepita",
+        "path": "/images/coco-pepita.png"
+    }
+
+]
