@@ -17,7 +17,7 @@ class Images extends Component {
   shuffle(array) {
     console.log('shuffled');
     let counter = array.length;
-
+    console.log(`counter: ${counter}`);
     // While there are elements in the array
     while (counter > 0) {
       // Pick a random index
@@ -31,6 +31,8 @@ class Images extends Component {
       array[counter] = array[index];
       array[index] = temp;
     }
+    console.log('after shuffle')
+    console.log({array});
     return array;
   }
 
@@ -38,19 +40,22 @@ class Images extends Component {
     console.log('clicked');
     // this.setState.imagesClickedIds = id
     this.setState.shuffledCharacters = this.shuffle(characters);
+    console.log('state after shuffle',this.state.shuffledCharacters);
   }
 
   render() {
     return (
-      <div className="Images">
+      <div className="Images container">
+      <div className="row">
         {this.state.shuffledCharacters.map(character => {
           return <Image onClick={() => this.handleImageChange(character.id)}
-            key={character.id} id={character.id} src={character.path}
+            key={character.id} id={character.id} path={character.path}
           // onClick={this.handleImageChange(character.id)}
 
           />
         })
         }
+        </div>
       </div>
     );
   }
