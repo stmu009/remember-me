@@ -5,12 +5,16 @@ import Images from './components/Images'
 
 
 class App extends Component {
+  state ={
+    score:0,
+    topScore:0
+  }
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header score={this.state.score} topScore={this.state.topScore}/>
         <Hero />
-        <Images />
+        <Images score={this.state.score} topScore={this.state.topScore}/>
       </div>
     );
   }

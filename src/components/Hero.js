@@ -6,6 +6,8 @@ const logoPath = './images/cocoLogo.png'
 const jumboStyle = {
   backgroundImage: `url(${backgroundImage})`,
   backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundAttachment: 'fixed',
   color: '#e68e23',
   textAlign: 'center'
 }
